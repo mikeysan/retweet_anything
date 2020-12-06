@@ -1,0 +1,2989 @@
+INFO:root:API created
+INFO:root:Retrieving tweets...
+INFO:root:API created
+INFO:root:Retrieving tweets...
+INFO:root:API created
+INFO:root:Retrieving tweets...
+INFO:root:Liked tweet by Mikey San
+INFO:root:Retweeted tweet by Mikey San
+INFO:root:Retweeted tweet from Tyra
+INFO:root:Retweeted tweet from cat_muu
+INFO:root:Retweeted tweet from Aerial Camera Services
+INFO:root:API created
+INFO:root:Retrieving and following followers
+INFO:root:Following Brittany Harrison
+INFO:root:Following FilmKit
+INFO:root:Waiting...
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:API created
+INFO:root:Retrieving tweets...
+INFO:root:Retweeted tweet from PS Photography+Films
+INFO:root:Retweeted tweet from FatCatsPhotography
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "/Users/mikeysan/development/GitHub/retweet_anything/phoducation-bot/phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Don Pedro de Gracia
+INFO:root:Retweeted tweet from dimdk84
+INFO:root:Retweeted tweet from cristiano valli
+INFO:root:Retweeted tweet from CosmoShot
+INFO:root:Retweeted tweet from Teo Voicilă
+INFO:root:Retweeted tweet from Jon Buscall
+INFO:root:Retweeted tweet from Massimiliano.R
+INFO:root:Retweeted tweet from Jaime Siordia
+INFO:root:Retweeted tweet from Colin Moody
+INFO:root:API created
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Paul Gonzales
+INFO:root:Retweeted tweet from RalphyV18
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from BlairTheArtist
+INFO:root:Retweeted tweet from Kevin Johnson
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Say Cheese
+INFO:root:Retweeted tweet from East of West LA
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+INFO:root:Retweeted tweet from Photo Blog Digest
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Iosif Sainiuc
+INFO:root:Retweeted tweet from Vincent Kraft
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Lawrence
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Jay
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from martino/pietropoli
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Polly Rusyn
+INFO:root:Retweeted tweet from Math Roberts
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Jaime Lacasa
+INFO:root:Retweeted tweet from Ahmed Abdel Hamid
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from DN Designs and Photography 📷✏🧵
+INFO:root:Retweeted tweet from CameraBaba
+INFO:root:Retweeted tweet from El Chele
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:API created
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:API created
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:API created
+INFO:root:Retrieving tweets...
+INFO:root:Retweeted tweet from Tilted Tripod Photos
+INFO:root:Retweeted tweet from Matt Korinek Photographer
+INFO:root:Retweeted tweet from Photo Blog Digest
+INFO:root:Retweeted tweet from Alice Megan
+INFO:root:Retweeted tweet from Splash Point Photo
+INFO:root:Retweeted tweet from Matt Korinek Photographer
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Jim Bailey Photography
+INFO:root:Retweeted tweet from Billy macGill (Photographer)
+INFO:root:Retweeted tweet from 地獄行脚
+INFO:root:Retweeted tweet from kerry lannert
+INFO:root:Retweeted tweet from Rob Feldman
+INFO:root:Retweeted tweet from xxxthorxxx
+INFO:root:Retweeted tweet from Beau Austin
+INFO:root:Retweeted tweet from Swee-Kin Loke
+INFO:root:Retweeted tweet from Little Onion
+INFO:root:Retweeted tweet from Charlene
+INFO:root:Retweeted tweet from Munir Rahool
+INFO:root:Retweeted tweet from Sue Jackson
+INFO:root:Retweeted tweet from Jason Frost
+INFO:root:Retweeted tweet from Kyle
+INFO:root:Retweeted tweet from pascal colin
+INFO:root:Waiting...
+INFO:root:Retrieving tweets...
+INFO:root:Retweeted tweet from Hunter H Grey
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from Haleyann Easley
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...
+INFO:root:API created
+INFO:root:Retrieving tweets...
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Retweeted tweet from JM Ibanez
+INFO:root:Retweeted tweet from Milk Crates
+INFO:root:Retweeted tweet from Milk Crates
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+ERROR:root:Error on retweet
+Traceback (most recent call last):
+  File "phoducationBot.py", line 54, in retweet_tweets_with_hashtag
+    api.retweet(tweet.id)
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 252, in _call
+    return method.execute()
+  File "/Users/mikeysan/.pyenv/versions/3.8.5/lib/python3.8/site-packages/tweepy/binder.py", line 234, in execute
+    raise TweepError(error_msg, resp, api_code=api_error_code)
+tweepy.error.TweepError: [{'code': 327, 'message': 'You have already retweeted this Tweet.'}]
+INFO:root:Waiting...

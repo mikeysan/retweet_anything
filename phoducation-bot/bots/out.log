@@ -1,0 +1,21 @@
+INFO:root:API created
+INFO:root:Retrieving and following followers
+INFO:root:Following Stéphane Papeau
+INFO:root:Following Desmond Photographic
+INFO:root:Following Verna Elzy
+INFO:root:Following Mark / NANDOFF DATA RECOVERY
+INFO:root:Following Little Onion
+INFO:root:Waiting...
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:Retrieving and following followers
+INFO:root:Waiting...
+INFO:root:Retrieving and following followers
+WARNING:tweepy.binder:Rate limit reached. Sleeping for: 293
+INFO:root:API created
+INFO:root:API created
+INFO:root:Waiting...

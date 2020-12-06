@@ -1,0 +1,43 @@
+1603368719643	geckodriver	INFO	Listening on 127.0.0.1:59820
+1603368720566	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/g7/2fdnxr2926z8r62gx5f4n6l00000gn/T/rust_mozprofilezNk4PM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603368725718	Marionette	INFO	Listening on port 59832
+1603368725813	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603368748217	Marionette	INFO	Stopped listening on port 59832
+1603369377388	geckodriver	INFO	Listening on 127.0.0.1:60151
+1603369378286	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/g7/2fdnxr2926z8r62gx5f4n6l00000gn/T/rust_mozprofilencd78W"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603369383124	Marionette	INFO	Listening on port 60164
+1603369383135	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6633b6b495238dace76e.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6633b6b495238dace76e.js, line 1: unreachable code after return statement
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1603369450286	geckodriver	INFO	Listening on 127.0.0.1:60257
+1603369451306	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/g7/2fdnxr2926z8r62gx5f4n6l00000gn/T/rust_mozprofileu7fCio"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603369453956	Marionette	INFO	Listening on port 60268
+1603369453975	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://web.whatsapp.com/app.6633b6b495238dace76e.js, line 1: unreachable code after return statement
+JavaScript warning: https://web.whatsapp.com/app.6633b6b495238dace76e.js, line 1: unreachable code after return statement
+1603370540806	Marionette	INFO	Stopped listening on port 60164
+1603370706947	geckodriver	INFO	Listening on 127.0.0.1:60683
+1603370707976	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/g7/2fdnxr2926z8r62gx5f4n6l00000gn/T/rust_mozprofilerTXEJV"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1603370710549	Marionette	INFO	Listening on port 60694
+1603370710645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1603370717501	Marionette	INFO	Stopped listening on port 60694
+1603465082026	Marionette	INFO	Stopped listening on port 60268
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
