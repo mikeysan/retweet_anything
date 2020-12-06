@@ -3,3 +3,4 @@ secrets.py
 .pytest_cache
 __pycache__
 .env
+out.log
