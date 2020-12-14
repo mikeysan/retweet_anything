@@ -55,7 +55,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                     if tweet.user.id != api.me().id:
                         api.retweet(tweet.id)
                         logger.info(f"Retweeted tweet from {tweet.user.name}")
-                        time.sleep(120)
+                        time.sleep(90)
             except tweepy.TweepError as e:
                 logger.error("Error on retweet", exc_info=True)
     else:
@@ -89,12 +89,12 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
 while True:
     fav_retweet(api)
     retweet_tweets_with_hashtag(api, ["github"])
-    time.sleep(20)
+    time.sleep(10)
     retweet_tweets_with_hashtag(api, ["hackathon"])
-    time.sleep(20)
+    time.sleep(10)
     retweet_tweets_with_hashtag(api, ["opensource"])
     logger.info("Waiting...")
-    time.sleep(150)
+    time.sleep(50)
 
 
 # trying to figure out a way to add a comment as I tweet; i.e. retweet with comment

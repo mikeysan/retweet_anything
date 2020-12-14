@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/mikeysan/.pyenv/shims/python",
+    "python.pythonPath": "C:\\Users\\phil4\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
 
     "python.analysis.extraPaths": [
         "./phoducation-bot",
