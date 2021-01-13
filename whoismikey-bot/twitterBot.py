@@ -45,7 +45,7 @@ def fav_retweet(api):
 def retweet_tweets_with_hashtag(api, need_hashtags):
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
-        tweets = api.search(q=search_query, lang ="en", tweet_mode='extended')
+        tweets = api.search(q=search_query, lang ="en", tweet_mode='extended', encoding="utf-8")
         for tweet in tweets:
             hashtags = [i['text'].lower() for i in tweet.__dict__['entities']['hashtags']]
             try:
@@ -90,7 +90,11 @@ while True:
     fav_retweet(api)
     retweet_tweets_with_hashtag(api, ["github"])
     time.sleep(10)
-    retweet_tweets_with_hashtag(api, ["hackathon"])
+    retweet_tweets_with_hashtag(api, ["localhackday"])
+    time.sleep(10)
+    retweet_tweets_with_hashtag(api, ["eddiehub"])
+    time.sleep(10)
+    retweet_tweets_with_hashtag(api, ["mlh"])
     time.sleep(10)
     retweet_tweets_with_hashtag(api, ["opensource"])
     logger.info("Waiting...")
@@ -105,3 +109,6 @@ while True:
 # additional options may include using "attachment_url"
 # i.e. api.update_status("@user1 @user2", attachment_url="url to original tweet")
 # tweet.permalink - Permalink of tweet itself
+
+
+#MLH #LocalHackDay #EddieHub
