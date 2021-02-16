@@ -14,4 +14,4 @@ RUN pip3 install -r requirements.txt
 COPY . .
 
 # command to run on the container start
-CMD [ "python", "./twitterBot.py"]
+CMD [ "python", "-u", "./twitterBot.py" ]

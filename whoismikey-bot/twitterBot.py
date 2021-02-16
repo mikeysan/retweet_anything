@@ -7,7 +7,9 @@ from datetime import datetime, timedelta
 
 # load_dotenv()
 
-logging.basicConfig(filename='out.log', level=logging.INFO)
+# Removing logging to file option for now
+# logging.basicConfig(filename='out.log', level=logging.INFO)
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
 # Import config script used to create twitter API.
