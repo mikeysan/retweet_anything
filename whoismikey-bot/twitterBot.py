@@ -62,28 +62,6 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
         return
 
-# Retweet any tweets with a certain Ticker (Stock Market Ticker)
-# def retweet_tweets_with_ticker(api, need_ticker):
-#     if type(need_ticker) is list:
-#         search_query = f"{need_ticker} -filter:retweets"
-#         tweets = api.search(q=search_query, lang ="en", tweet_mode='extended')
-#         for tweet in tweets:
-#             ticker = [i['text'].lower() for i in tweet.__dict__['entities']['symbols']]
-#             try:
-#                 need_ticker = [hashtag.strip('$') for hashtag in need_ticker]
-#                 need_ticker = list(need_ticker)
-#                 if set(ticker) & set(need_ticker):
-#                     if tweet.user.id != api.me().id:
-#                         api.retweet(tweet.id)
-#                         logger.info(f"Retweeted tweet from {tweet.user.name}")
-#                         time.sleep(15)
-#             except tweepy.TweepError:
-#                 logger.error("Error on retweet", exc_info=True)
-#     else:
-#         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
-#         return
-
-
 
 # Testing like and retweet 
 while True:
