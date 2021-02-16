@@ -1,13 +1,11 @@
-#!/Users/mikeysan/.pyenv/shims/python
-
 import tweepy
 import logging
 import time
-import random
-from dotenv import load_dotenv
+# import random
+# from dotenv import load_dotenv
 from datetime import datetime, timedelta
 
-load_dotenv()
+# load_dotenv()
 
 logging.basicConfig(filename='out.log', level=logging.INFO)
 logger = logging.getLogger()

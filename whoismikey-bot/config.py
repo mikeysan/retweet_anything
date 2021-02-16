@@ -2,8 +2,8 @@ import tweepy
 import os, sys
 from secrets import *
 
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
 import logging
 CONSUMER_KEY = os.getenv('CKEY')
