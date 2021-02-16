@@ -90,7 +90,7 @@ while True:
     fav_retweet(api)
     retweet_tweets_with_hashtag(api, ["github"])
     time.sleep(10)
-    retweet_tweets_with_hashtag(api, ["hackathon"])
+    retweet_tweets_with_hashtag(api, ["cybersecurity"])
     time.sleep(10)
     retweet_tweets_with_hashtag(api, ["opensource"])
     logger.info("Waiting...")
