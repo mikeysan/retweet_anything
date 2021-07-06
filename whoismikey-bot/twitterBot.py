@@ -63,7 +63,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
         return
 
 
-# Testing like and retweet 
+# Testing like and retweet
 while True:
     fav_retweet(api)
     retweet_tweets_with_hashtag(api, ["github"])
