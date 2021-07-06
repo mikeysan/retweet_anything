@@ -11,7 +11,7 @@ sms_gateway = '0026775698304@sms.mascom.bw'
 smtp = "smtp.gmail.com" 
 port = 587
 # This will start our email server
-server = smtplib.SMTP(smtp,port)
+server = smtplib.SMTP(smtp, port)
 # Starting the server
 server.starttls()
 # Now we need to login
