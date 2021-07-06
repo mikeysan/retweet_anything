@@ -79,7 +79,7 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
                         usercreatedts, tweetcreatedts, retweetcount, text, hashtags]
             # Append to dataframe - db_tweets
             db_tweets.loc[len(db_tweets)] = ith_tweet
-            # increase counter - noTweets  
+            # increase counter - noTweets
             noTweets += 1
                     
             # Run ended:
