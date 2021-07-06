@@ -52,7 +52,8 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         # user.created_at - when the user account was created
         # created_at - when the tweet was created
         # retweet_count - no. of retweets
-        # (deprecated) user.favourites_count - probably total no. of tweets that is favourited by user
+        # (deprecated) user.favourites_count - 
+        # probably total no. of tweets that is favourited by user
         # retweeted_status.full_text - full text of the tweet
         # tweet.entities['hashtags'] - hashtags in the tweet
         
