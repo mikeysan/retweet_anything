@@ -32,15 +32,15 @@ with open(fName, 'w') as f:
     while tweetCount < maxTweets:
         tweets = []
         try:
-            if (max_id <= 0):
-                if (not sinceId):
+            if max_id <= 0:
+                if not sinceId:
                     new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry, tweet_mode='extended')
 
                 else:
                     new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
                                         since_id=sinceId, tweet_mode='extended')
             else:
-                if (not sinceId):
+                if not sinceId:
                     new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
                                         max_id=str(max_id - 1), tweet_mode='extended')
                 else:
