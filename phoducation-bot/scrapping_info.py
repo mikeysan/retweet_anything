@@ -41,9 +41,9 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         # Each item in the iterator has various attributes that you can access 
         # to get information about each tweet
         tweets = tweepy.Cursor(api.search, q=search_words, lang="en", since=date_since, tweet_mode='extended').items(numTweets)
-# Store these tweets into a python list
+        # Store these tweets into a python list
         tweet_list = list(tweets)
-# Obtain the following info (methods to call them out):
+        # Obtain the following info (methods to call them out):
         # user.screen_name - twitter handle
         # user.description - description of account
         # user.location - where is he tweeting from
