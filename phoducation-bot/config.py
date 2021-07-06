@@ -1,5 +1,6 @@
 import tweepy
-import os, sys
+import os
+import sys
 from secrets import *
 
 from dotenv import load_dotenv
