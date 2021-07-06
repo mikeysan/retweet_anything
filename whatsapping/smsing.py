@@ -30,7 +30,7 @@ msg.attach(MIMEText(body, 'plain'))
 
 sms = msg.as_string()
 
-server.sendmail(email,sms_gateway,sms)
+server.sendmail(email, sms_gateway, sms)
 
 # lastly quit the server
 server.quit()
