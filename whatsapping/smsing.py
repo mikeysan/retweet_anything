@@ -15,7 +15,7 @@ server = smtplib.SMTP(smtp, port)
 # Starting the server
 server.starttls()
 # Now we need to login
-server.login(email,pas)
+server.login(email, pas)
 
 # Now we use the MIME module to structure our message.
 msg = MIMEMultipart()
