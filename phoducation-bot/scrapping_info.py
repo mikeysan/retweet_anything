@@ -37,8 +37,9 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         start_run = time.time()
         
         # Collect tweets using the Cursor object
-        # .Cursor() returns an object that you can iterate or loop over to access the data collected.
-        # Each item in the iterator has various attributes that you can access to get information about each tweet
+        # .Cursor() returns object that you can loop over to access the data collected.
+        # Each item in the iterator has various attributes that you can access 
+        # to get information about each tweet
         tweets = tweepy.Cursor(api.search, q=search_words, lang="en", since=date_since, tweet_mode='extended').items(numTweets)
 # Store these tweets into a python list
         tweet_list = list(tweets)
