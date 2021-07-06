@@ -52,7 +52,7 @@ with open(fName, 'w') as f:
                 print("No more tweets found")
                 break
             for tweet in new_tweets:
-                f.write(str(tweet.full_text.replace('\n','').encode("utf-8"))+"\n")
+                f.write(str(tweet.full_text.replace('\n', '').encode("utf-8"))+"\n")
 
             tweetCount += len(new_tweets)
             print("Downloaded {0} tweets".format(tweetCount))
