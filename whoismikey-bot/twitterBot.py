@@ -63,7 +63,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
         return
 
 
-# Testing like and retweet 
+# Testing like and retweet
 while True:
     fav_retweet(api)
     retweet_tweets_with_hashtag(api, ["github"])
@@ -79,7 +79,8 @@ while True:
 # only option I have found is to use the ful url of the original tweet
 # api.update_status("My reaction https://twitter.com/screenname/status/123456789")
 # Possible example
-# api.update_status("@user1 @user2 https://twitter.com/{}/status/{}".format(tweet.user.screen_name, tweet.id))
+# api.update_status("@user1 @user2 https://twitter.com/{}/status/{}".
+# format(tweet.user.screen_name, tweet.id))
 # additional options may include using "attachment_url"
 # i.e. api.update_status("@user1 @user2", attachment_url="url to original tweet")
 # tweet.permalink - Permalink of tweet itself
