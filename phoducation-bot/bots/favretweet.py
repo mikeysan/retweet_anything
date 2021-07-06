@@ -33,7 +33,8 @@ class FavRetweetListener(tweepy.StreamListener):
             except Exception as e:
                 logger.error("Error on fav and retweet", exc_info=True)
 
-    def on_error(self, status):
+    @staticmethod
+    def on_error(status):
         logger.error(status)
 
 def main(keywords):
