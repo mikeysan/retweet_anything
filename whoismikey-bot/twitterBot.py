@@ -51,11 +51,10 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
             try:
                 need_hashtags = [hashtag.strip('#') for hashtag in need_hashtags]
                 need_hashtags = list(need_hashtags)
-                if set(hashtags) & set(need_hashtags):
-                    if tweet.user.id != api.me().id:
-                        api.retweet(tweet.id)
-                        logger.info(f"Retweeted tweet from {tweet.user.name}")
-                        time.sleep(90)
+                if (set(hashtags) & set(need_hashtags)) and tweet.user.id != api.me().id:
+                    api.retweet(tweet.id)
+                    logger.info(f"Retweeted tweet from {tweet.user.name}")
+                    time.sleep(90)
             except tweepy.TweepError as e:
                 logger.error("Error on retweet", exc_info=True)
     else:

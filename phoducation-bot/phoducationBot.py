@@ -50,11 +50,10 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
             try:
                 need_hashtags = [hashtag.strip('#') for hashtag in need_hashtags]
                 need_hashtags = list(need_hashtags)
-                if set(hashtags) & set(need_hashtags):
-                    if tweet.user.id != api.me().id:
-                        api.retweet(tweet.id)
-                        logger.info(f"Retweeted tweet from {tweet.user.name}")
-                        time.sleep(25)
+                if (set(hashtags) & set(need_hashtags)) and tweet.user.id != api.me().id:
+                    api.retweet(tweet.id)
+                    logger.info(f"Retweeted tweet from {tweet.user.name}")
+                    time.sleep(25)
             except tweepy.TweepError as e:
                 logger.error("Error on retweet", exc_info=True)
     else:
@@ -71,11 +70,10 @@ def retweet_tweets_with_ticker(api, need_ticker):
             try:
                 need_ticker = [hashtag.strip('$') for hashtag in need_ticker]
                 need_ticker = list(need_ticker)
-                if set(ticker) & set(need_ticker):
-                    if tweet.user.id != api.me().id:
-                        api.retweet(tweet.id)
-                        logger.info(f"Retweeted tweet from {tweet.user.name}")
-                        time.sleep(15)
+                if (set(ticker) & set(need_ticker)) and tweet.user.id != api.me().id:
+                    api.retweet(tweet.id)
+                    logger.info(f"Retweeted tweet from {tweet.user.name}")
+                    time.sleep(15)
             except tweepy.TweepError:
                 logger.error("Error on retweet", exc_info=True)
     else:
