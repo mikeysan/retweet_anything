@@ -102,8 +102,9 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
             db_tweets.to_csv(filename, index = False)
                 
             program_end = time.time()
+            program_difference=program_end - program_start
             print('Scraping has completed!')
-            print('Total time taken to scrap is {} minutes.'.format(round(program_end - program_start)/60, 2))
+            print('Total time taken to scrap is {} minutes.'.format(round(program_difference)/60, 2))
 
 
 # Initialise these variables:
