@@ -27,7 +27,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                 need_hashtags = list(need_hashtags)
                 if set(hashtags) & set(need_hashtags):
                     if tweet.user.id != api.me().id:
-                        # This allows us to add a comment 
+                        # This allows us to add a comment
                         # to a retweet using the url of the original tweet
                         api.update_status("Learn about #EndSARS https://twitter.com/{}/status/{}".format(tweet.user.screen_name, tweet.id))
                         logger.info(f"Retweeted tweet from {tweet.user.name}")
