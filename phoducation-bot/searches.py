@@ -43,7 +43,7 @@ def search_tweets(api):
                     api.retweet(tweet.id)
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(25)
-            except tweepy.TweepError as e:
+            except tweepy.TweepError:
                 logger.error("Error on retweet", exc_info=True)
         # the code below simply displays the results
         # for tweet in api.search(q=i, lang="en", rpp=10):
