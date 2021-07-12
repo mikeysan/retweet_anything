@@ -7,12 +7,14 @@ from secrets import *
 # load_dotenv()
 
 import logging
+
 CONSUMER_KEY = os.getenv('CKEY')
 CONSUMER_SECRET = os.getenv('CSECRET')
 ACCESS_TOKEN = os.getenv('ATOKEN')
 ACCESS_TOKEN_SECRET = os.getenv('ATOKEN_SECRET')
 
 logger = logging.getLogger()
+
 
 def create_api():
     consumer_key = CONSUMER_KEY
@@ -27,7 +29,7 @@ def create_api():
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     api = tweepy.API(auth, wait_on_rate_limit=True,
-        wait_on_rate_limit_notify=True)
+                     wait_on_rate_limit_notify=True)
     try:
         api.verify_credentials()
     except Exception as e:

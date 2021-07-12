@@ -9,7 +9,6 @@ logging.basicConfig(filename='./out.log', level=logging.INFO)
 logger = logging.getLogger()
 
 api = create_api()
-
 # This is the original hashtag based retweet script I found
 # and used as a base for the main one.
 
