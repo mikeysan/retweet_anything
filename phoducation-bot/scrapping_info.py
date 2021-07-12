@@ -18,10 +18,11 @@ load_dotenv()
 logging.basicConfig(filename='scrapping.log', level=logging.INFO)
 logger = logging.getLogger()
 
-api = create_api()
+startAPI = create_api()
 
 
-def scraptweets(search_words, date_since, numTweets, numRuns):
+def scraptweets(s_words, d_since, n_tweets, n_runs):
+    api = startAPI
     # Define a for-loop to generate tweets at regular intervals
     # We cannot make large API calls in one go. Hence, let's try T times
 
@@ -31,7 +32,7 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
                                       'retweetcount', 'text', 'hashtags']
                              )
     program_start = time.time()
-    for i in range(0, numRuns):
+    for i in range(0, n_runs):
         # We will time how long it takes to scrape tweets for each run:
         start_run = time.time()
 
@@ -39,8 +40,8 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         # .Cursor() returns object that you can loop over to access the data collected.
         # Each item in the iterator has various attributes that you can access
         # to get information about each tweet
-        tweets = tweepy.Cursor(api.search, q=search_words, lang="en", since=date_since, tweet_mode='extended').items(
-            numTweets)
+        tweets = tweepy.Cursor(api.search, q=s_words, lang="en", since=d_since, tweet_mode='extended').items(
+            n_tweets)
         # Store these tweets into a python list
         tweet_list = list(tweets)
         # Obtain the following info (methods to call them out):
@@ -59,7 +60,7 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         # tweet.entities['hashtags'] - hashtags in the tweet
 
         # Begin scraping the tweets individually:
-        numtweets = 0
+        n_tweets = 0
         for tweet in tweet_list:
             # Pull the values
             username = tweet.user.screen_name
@@ -82,13 +83,13 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
             # Append to dataframe - db_tweets
             db_tweets.loc[len(db_tweets)] = ith_tweet
             # increase counter - numtweets
-            numtweets += 1
+            n_tweets += 1
 
             # Run ended:
             end_run = time.time()
             duration_run = round((end_run - start_run) / 60, 2)
 
-            print('no. of tweets scraped for run {} is {}'.format(i + 1, numtweets))
+            print('no. of tweets scraped for run {} is {}'.format(i + 1, n_tweets))
             print('time taken for {} run to complete is {} mins'.format(i + 1, duration_run))
 
             time.sleep(920)  # 15 minute sleep time
@@ -110,7 +111,7 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
 
 # Initialise these variables:
 search_words = "#LekkiMassacre OR #endsars OR #endpolicebrutalitynow"
-date_since = "2020-10-01"
+date_since = "2021-05-01"
 numTweets = 2000
 numRuns = 6
 
