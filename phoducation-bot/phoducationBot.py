@@ -13,11 +13,12 @@ logging.basicConfig(filename='phoducation_out.log', level=logging.INFO)
 logger = logging.getLogger()
 
 
-api = create_api()
+startAPI = create_api()
 
 
 # Like and retween mentions (of me)
 def fav_retweet(api):
+    api = startAPI
     logger.info('Retrieving tweets...')
     mentions = api.mentions_timeline(tweet_mode = 'extended')
     for mention in reversed(mentions):
@@ -46,6 +47,7 @@ def fav_retweet(api):
 
 # Search for specific hastags and retweet when we find them.
 def retweet_tweets_with_hashtag(api, need_hashtags):
+    api = startAPI
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
         tweets = api.search(q=search_query, lang ="en", tweet_mode='extended')
@@ -67,6 +69,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
 
 # Retweet any tweets with a certain Ticker (Stock Market Ticker)
 def retweet_tweets_with_ticker(api, need_ticker):
+    api = startAPI
     if type(need_ticker) is list:
         search_query = f"{need_ticker} -filter:retweets"
         tweets = api.search(q=search_query, lang ="en", tweet_mode='extended')
@@ -87,9 +90,9 @@ def retweet_tweets_with_ticker(api, need_ticker):
 
 # Testing like and retween of set user_handle.
 while True:
-    fav_retweet(api)
-    retweet_tweets_with_hashtag(api, ["travelphotograhy"])
-    retweet_tweets_with_hashtag(api, ["photographytips"])
-    retweet_tweets_with_hashtag(api, ["streetphotography"])
+    fav_retweet(startAPI)
+    retweet_tweets_with_hashtag(startAPI, ["travelphotograhy"])
+    retweet_tweets_with_hashtag(startAPI, ["photographytips"])
+    retweet_tweets_with_hashtag(startAPI, ["streetphotography"])
     logger.info("Waiting...")
     time.sleep(240)
