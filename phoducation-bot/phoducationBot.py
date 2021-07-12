@@ -2,7 +2,8 @@ import tweepy
 import logging
 import json
 import time
-import random
+# Import config script used to create twitter API.
+from config import create_api
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 
@@ -11,9 +12,9 @@ load_dotenv()
 logging.basicConfig(filename='phoducation_out.log', level=logging.INFO)
 logger = logging.getLogger()
 
-# Import config script used to create twitter API.
-from config import create_api
+
 api = create_api()
+
 
 # Like and retween mentions (of me)
 def fav_retweet(api):
@@ -29,16 +30,19 @@ def fav_retweet(api):
             try:
                 mention.favorite()
                 logger.info(f"Liked tweet by {mention.user.name}")
-            except Exception as e:
+            except tweepy.TweepError:
                 logger.error("Error on fav", exc_info=True)
+                time.sleep(60 * 15)
 
         if not mention.retweeted:
             # Retweet, since we have not retweeted it yet
             try:
                 mention.retweet()
                 logger.info(f"Retweeted tweet by {mention.user.name}")
-            except Exception as e:
+            except tweepy.TweepError:
                 logger.error("Error on fav and retweet", exc_info=True)
+                time.sleep(60 * 15)
+
 
 # Search for specific hastags and retweet when we find them.
 def retweet_tweets_with_hashtag(api, need_hashtags):
@@ -60,6 +64,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
         return
 
+
 # Retweet any tweets with a certain Ticker (Stock Market Ticker)
 def retweet_tweets_with_ticker(api, need_ticker):
     if type(need_ticker) is list:
@@ -79,8 +84,6 @@ def retweet_tweets_with_ticker(api, need_ticker):
     else:
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
         return
-
-
 
 # Testing like and retween of set user_handle.
 while True:

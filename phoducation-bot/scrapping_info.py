@@ -13,7 +13,6 @@ import time
 from dotenv import load_dotenv
 from config import create_api
 
-
 load_dotenv()
 
 logging.basicConfig(filename='scrapping.log', level=logging.INFO)
@@ -21,26 +20,27 @@ logger = logging.getLogger()
 
 api = create_api()
 
+
 def scraptweets(search_words, date_since, numTweets, numRuns):
-    
     # Define a for-loop to generate tweets at regular intervals
     # We cannot make large API calls in one go. Hence, let's try T times
-    
+
     # Define a pandas dataframe to store the date:
-    db_tweets = pd.DataFrame(columns = ['username', 'acctdesc', 'location', 'following',
-                                        'followers', 'totaltweets', 'usercreatedts', 'tweetcreatedts',
-                                        'retweetcount', 'text', 'hashtags']
-                                )
+    db_tweets = pd.DataFrame(columns=['username', 'acctdesc', 'location', 'following',
+                                      'followers', 'totaltweets', 'usercreatedts', 'tweetcreatedts',
+                                      'retweetcount', 'text', 'hashtags']
+                             )
     program_start = time.time()
     for i in range(0, numRuns):
         # We will time how long it takes to scrape tweets for each run:
         start_run = time.time()
-        
+
         # Collect tweets using the Cursor object
         # .Cursor() returns object that you can loop over to access the data collected.
         # Each item in the iterator has various attributes that you can access
         # to get information about each tweet
-        tweets = tweepy.Cursor(api.search, q=search_words, lang="en", since=date_since, tweet_mode='extended').items(numTweets)
+        tweets = tweepy.Cursor(api.search, q=search_words, lang="en", since=date_since, tweet_mode='extended').items(
+            numTweets)
         # Store these tweets into a python list
         tweet_list = list(tweets)
         # Obtain the following info (methods to call them out):
@@ -57,9 +57,9 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         # probably total no. of tweets that is favourited by user
         # retweeted_status.full_text - full text of the tweet
         # tweet.entities['hashtags'] - hashtags in the tweet
-        
+
         # Begin scraping the tweets individually:
-        noTweets = 0
+        numtweets = 0
         for tweet in tweet_list:
             # Pull the values
             username = tweet.user.screen_name
@@ -78,20 +78,20 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
                 text = tweet.full_text
             # Add the 11 variables to the empty list - ith_tweet:
             ith_tweet = [username, acctdesc, location, following, followers, totaltweets,
-                        usercreatedts, tweetcreatedts, retweetcount, text, hashtags]
+                         usercreatedts, tweetcreatedts, retweetcount, text, hashtags]
             # Append to dataframe - db_tweets
             db_tweets.loc[len(db_tweets)] = ith_tweet
-            # increase counter - noTweets
-            noTweets += 1
-                    
+            # increase counter - numtweets
+            numtweets += 1
+
             # Run ended:
             end_run = time.time()
-            duration_run = round((end_run-start_run)/60, 2)
-                    
-            print('no. of tweets scraped for run {} is {}'.format(i + 1, noTweets))
-            print('time taken for {} run to complete is {} mins'.format(i+1, duration_run))
-                    
-            time.sleep(920) #15 minute sleep time
+            duration_run = round((end_run - start_run) / 60, 2)
+
+            print('no. of tweets scraped for run {} is {}'.format(i + 1, numtweets))
+            print('time taken for {} run to complete is {} mins'.format(i + 1, duration_run))
+
+            time.sleep(920)  # 15 minute sleep time
             # Once all runs have completed, save them to a single csv file:
             # Obtain timestamp in a readable format
             to_csv_timestamp = datetime.today().strftime('%Y%m%d_%H%M%S')
@@ -99,12 +99,12 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
             path = os.getcwd()
             filename = path + '/data/' + to_csv_timestamp + 'lekki_tweets.csv'
             # Store dataframe in csv with creation date timestamp
-            db_tweets.to_csv(filename, index = False)
-                
+            db_tweets.to_csv(filename, index=False)
+
             program_end = time.time()
-            program_difference=program_end - program_start
+            program_difference = program_end - program_start
             print('Scraping has completed!')
-            print('Total time taken to scrap is {} minutes.'.format(round(program_difference)/60, 2))
+            print('Total time taken to scrap is {} minutes.'.format(round(program_difference) / 60, 2))
 
 
 # Initialise these variables:
@@ -112,6 +112,7 @@ search_words = "#LekkiMassacre OR #endsars OR #endpolicebrutalitynow"
 date_since = "2020-10-01"
 numTweets = 2000
 numRuns = 6
+
 
 # Call the function scraptweets
 scraptweets(search_words, date_since, numTweets, numRuns)
