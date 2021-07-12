@@ -103,8 +103,9 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
 
             program_end = time.time()
             program_difference = program_end - program_start
+            time_taken = round(program_difference / 60)
             print('Scraping has completed!')
-            print('Total time taken to scrap is {} minutes.'.format(round(program_difference) / 60, 2))
+            print('Total time taken to scrap is {} minutes.'.format(time_taken))
 
 
 # Initialise these variables:
