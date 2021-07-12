@@ -38,7 +38,7 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         
         # Collect tweets using the Cursor object
         # .Cursor() returns object that you can loop over to access the data collected.
-        # Each item in the iterator has various attributes that you can access 
+        # Each item in the iterator has various attributes that you can access
         # to get information about each tweet
         tweets = tweepy.Cursor(api.search, q=search_words, lang="en", since=date_since, tweet_mode='extended').items(numTweets)
         # Store these tweets into a python list
@@ -53,7 +53,7 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
         # user.created_at - when the user account was created
         # created_at - when the tweet was created
         # retweet_count - no. of retweets
-        # (deprecated) user.favourites_count - 
+        # (deprecated) user.favourites_count -
         # probably total no. of tweets that is favourited by user
         # retweeted_status.full_text - full text of the tweet
         # tweet.entities['hashtags'] - hashtags in the tweet
@@ -102,8 +102,9 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
             db_tweets.to_csv(filename, index = False)
                 
             program_end = time.time()
+            program_difference=program_end - program_start
             print('Scraping has completed!')
-            print('Total time taken to scrap is {} minutes.'.format(round(program_end - program_start)/60, 2))
+            print('Total time taken to scrap is {} minutes.'.format(round(program_difference)/60, 2))
 
 
 # Initialise these variables:
