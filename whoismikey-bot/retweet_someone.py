@@ -2,7 +2,6 @@
 import tweepy
 import logging
 import time
-import random
 from dotenv import load_dotenv
 from datetime import datetime, timedelta
 
