@@ -30,7 +30,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                     api.update_status("What your people are saying @MBuhari, @NigeriaNewsdesk, @channelstv https://twittercom/{}/status/{}".format(tweet.user.screen_name, tweet.id))
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(200)
-            except tweepy.TweepError as e:
+            except tweepy.TweepError:
                 logger.error("Error on retweet", exc_info=True)
     else:
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
