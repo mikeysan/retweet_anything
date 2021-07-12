@@ -6,3 +6,7 @@ __pycache__
 out.log
 .vscode
 .idea
+temp.txt
+scrapping.log
+geckodriver.log
+.deepsource.toml
