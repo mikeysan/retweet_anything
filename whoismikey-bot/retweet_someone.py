@@ -46,10 +46,10 @@ def play():
         # fav_retweet_user(api, "@falzthebahdguy")
         # logger.info("Waiting...")
         # time.sleep(150)
-        fav_retweet_user(api, "@AfricaWorldNews")
+        fav_retweet_user(api, "@fashionsfinest")
         logger.info("waiting...")
         time.sleep(150)
-        fav_retweet_user(api, "@SaharaReporters")
+        fav_retweet_user(api, "@eddiejaoude")
         logger.info("Waiting...")
         time.sleep(150)
 
