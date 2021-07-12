@@ -58,7 +58,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                     api.retweet(tweet.id)
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(25)
-            except tweepy.TweepError as e:
+            except tweepy.TweepError:
                 logger.error("Error on retweet", exc_info=True)
     else:
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
