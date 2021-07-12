@@ -39,7 +39,7 @@ def fav_retweet(api):
             try:
                 mention.retweet()
                 logger.info(f"Retweeted tweet by {mention.user.name}")
-            except tweepy.TweepError as e:
+            except tweepy.TweepError:
                 logger.error("Error on fav and retweet", exc_info=True)
 
 
