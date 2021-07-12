@@ -10,8 +10,6 @@ load_dotenv()
 logging.basicConfig(filename='out.log', level=logging.INFO)
 logger = logging.getLogger()
 
-api = create_api()
-
 
 # Lke and retweet a specific person's tweets
 def fav_retweet_user(api, user_handle):
@@ -38,6 +36,9 @@ def fav_retweet_user(api, user_handle):
             except tweepy.TweepError as e:
                 if e.api_code == 187:
                     logger.error("Already retweeted", exc_info=True)
+
+
+api = create_api()
 
 
 def play():

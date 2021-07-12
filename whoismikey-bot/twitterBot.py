@@ -1,7 +1,8 @@
 import tweepy
 import logging
 import time
-# import random
+# Import config script used to create twitter API.
+from config import create_api
 # from dotenv import load_dotenv
 from datetime import datetime, timedelta
 
@@ -12,9 +13,9 @@ from datetime import datetime, timedelta
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-# Import config script used to create twitter API.
-from config import create_api
+
 api = create_api()
+
 
 # Like and retween mentions (of me)
 def fav_retweet(api):
@@ -30,7 +31,7 @@ def fav_retweet(api):
             try:
                 mention.favorite()
                 logger.info(f"Liked tweet by {mention.user.name}")
-            except Exception as e:
+            except tweepy.TweepError as e:
                 logger.error("Error on fav", exc_info=True)
 
         if not mention.retweeted:
@@ -38,14 +39,15 @@ def fav_retweet(api):
             try:
                 mention.retweet()
                 logger.info(f"Retweeted tweet by {mention.user.name}")
-            except Exception as e:
+            except tweepy.TweepError as e:
                 logger.error("Error on fav and retweet", exc_info=True)
+
 
 # Search for specific hastags and retweet when we find them.
 def retweet_tweets_with_hashtag(api, need_hashtags):
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
-        tweets = api.search(q=search_query, lang ="en", tweet_mode='extended', encoding="utf-8")
+        tweets = api.search(q=search_query, lang="en", tweet_mode='extended', encoding="utf-8")
         for tweet in tweets:
             hashtags = [i['text'].lower() for i in tweet.__dict__['entities']['hashtags']]
             try:
@@ -74,7 +76,7 @@ while True:
     time.sleep(50)
 
 
-# trying to figure out a way to add a comment as I tweet; i.e. retweet with comment
+# Trying to figure out a way to add a comment as I [re]tweet; i.e. retweet with comment
 # only option I have found is to use the ful url of the original tweet
 # api.update_status("My reaction https://twitter.com/screenname/status/123456789")
 # Possible example
@@ -85,4 +87,4 @@ while True:
 # tweet.permalink - Permalink of tweet itself
 
 
-#MLH #LocalHackDay #EddieHub
+# MLH #LocalHackDay #EddieHub
