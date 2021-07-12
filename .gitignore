@@ -10,3 +10,4 @@ temp.txt
 scrapping.log
 geckodriver.log
 .deepsource.toml
+hashtags.py
