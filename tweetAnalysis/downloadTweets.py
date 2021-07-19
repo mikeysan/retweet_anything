@@ -16,7 +16,7 @@ from config import create_api
 api = create_api()
 
 searchQuery = 'LekkiMassacre OR endpolicebrutalitynow'
-retweet_filter='-filter:retweets'
+retweet_filter = '-filter:retweets'
 
 q = searchQuery.lower() + retweet_filter
 tweetsPerQry = 100
