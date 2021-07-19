@@ -34,17 +34,17 @@ with open(fName, 'w') as f:
         try:
             if max_id <= 0:
                 if not sinceId:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry, tweet_mode='extended')
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry, tweet_mode='extended')
 
                 else:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                         since_id=sinceId, tweet_mode='extended')
             else:
                 if not sinceId:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                         max_id=str(max_id - 1), tweet_mode='extended')
                 else:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                         max_id=str(max_id - 1),
                                         since_id=sinceId, tweet_mode='extended')
 
