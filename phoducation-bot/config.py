@@ -3,7 +3,6 @@ import os
 import logging
 
 from dotenv import load_dotenv
-
 load_dotenv()
 
 
@@ -27,8 +26,8 @@ def create_api():
                      wait_on_rate_limit_notify=True)
     try:
         api.verify_credentials()
-    except Exception as e:
-        logger.error("Error creating API", exc_info=True)
-        raise e
-    logger.info("API created")
+        logger.info("API created")
+    except tweepy.TweepError:
+        logger.error("Error! Failed to get access token", exc_info=True)
+
     return api
