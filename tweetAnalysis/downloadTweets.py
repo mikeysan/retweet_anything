@@ -63,4 +63,4 @@ with open(fName, 'w') as f:
             print("some error : " + str(e))
             break
                 
-print ("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
+print ("Downloaded {0} tweets, Saved to {1}".format (tweetCount, fName))
