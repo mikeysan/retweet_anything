@@ -2,11 +2,11 @@ import tweepy
 import os
 import sys
 from secrets import *
+import logging
 
 from dotenv import load_dotenv
 load_dotenv()
 
-import logging
 CONSUMER_KEY = os.getenv('CKEY')
 CONSUMER_SECRET = os.getenv('CSECRET')
 ACCESS_TOKEN = os.getenv('ATOKEN')
