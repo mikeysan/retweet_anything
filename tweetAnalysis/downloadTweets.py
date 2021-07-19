@@ -57,10 +57,10 @@ with open(fName, 'w') as f:
             tweetCount += len(new_tweets)
             print("Downloaded {0} tweets".format(tweetCount))
             max_id = new_tweets[-1].id
-                
+
         except tweepy.TweepError as e:
             # Just exit if any error
             print("some error : " + str(e))
             break
-                
+
 print ("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
