@@ -1,12 +1,12 @@
 import tweepy
 import os
 import sys
+import logging
 from secrets import *
 
 from dotenv import load_dotenv
 load_dotenv()
 
-import logging
 CONSUMER_KEY = os.getenv('phoCKEY')
 CONSUMER_SECRET = os.getenv('phoCSECRET')
 ACCESS_TOKEN = os.getenv('phoATOKEN')

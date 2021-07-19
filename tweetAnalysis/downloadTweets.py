@@ -4,16 +4,14 @@ import jsonpickle
 import pandas as pd
 import json
 import logging
+from config import create_api  # Import config script used to create twitter API.
+api = create_api()
 
 from dotenv import load_dotenv
 load_dotenv()
 
 logging.basicConfig(filename='analysis.log', level=logging.INFO)
 logger = logging.getLogger()
-
-# Import config script used to create twitter API.
-from config import create_api
-api = create_api()
 
 searchQuery = 'LekkiMassacre OR endpolicebrutalitynow'
 retweet_filter = '-filter:retweets'
