@@ -3,16 +3,14 @@ import logging
 import time
 # Import config script used to create twitter API.
 from config import create_api
-# from dotenv import load_dotenv
-from datetime import datetime, timedelta
+from dotenv import load_dotenv
 
-# load_dotenv()
+load_dotenv()
 
 # Removing logging to file option for now
 # logging.basicConfig(filename='out.log', level=logging.INFO)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
-
 
 api = create_api()
 
@@ -20,7 +18,7 @@ api = create_api()
 # Like and retween mentions (of me)
 def fav_retweet(api):
     logger.info('Retrieving tweets...')
-    mentions = api.mentions_timeline(tweet_mode = 'extended')
+    mentions = api.mentions_timeline(tweet_mode='extended')
     for mention in reversed(mentions):
         if mention.in_reply_to_status_id is not None or mention.user.id == api.me().id:
             # This tweet is a reply or I'm its author so, ignore it
