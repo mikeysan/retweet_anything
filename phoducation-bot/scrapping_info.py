@@ -49,7 +49,7 @@ def scraptweets(s_words, d_since, n_tweets, n_runs):
         # user.description - description of account
         # user.location - where is he tweeting from
         # user.friends_count - no. of other users that user is following (following)
-        # user.followers_count - no. of other users who are following this user (followers)
+        # user.followers_count - no. of other users, following this user (followers)
         # user.statuses_count - total tweets by user
         # user.created_at - when the user account was created
         # created_at - when the tweet was created
