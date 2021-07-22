@@ -1,3 +1,4 @@
+from config import create_api
 import tweepy
 from textblob import TextBlob
 import jsonpickle
@@ -12,7 +13,6 @@ logging.basicConfig(filename='analysis.log', level=logging.INFO)
 logger = logging.getLogger()
 
 # Import config script used to create twitter API.
-from config import create_api
 api = create_api()
 
 searchQuery = 'LekkiMassacre OR endpolicebrutalitynow'
