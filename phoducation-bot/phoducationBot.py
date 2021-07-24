@@ -20,7 +20,7 @@ startAPI = create_api()
 def fav_retweet(api):
     api = startAPI
     logger.info('Retrieving tweets...')
-    mentions = api.mentions_timeline(tweet_mode = 'extended')
+    mentions = api.mentions_timeline(tweet_mode='extended')
     for mention in reversed(mentions):
         if mention.in_reply_to_status_id is not None or mention.user.id == api.me().id:
             # This tweet is a reply or I'm its author so, ignore it
@@ -50,7 +50,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
     api = startAPI
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
-        tweets = api.search(q=search_query, lang ="en", tweet_mode='extended')
+        tweets = api.search(q=search_query, lang="en", tweet_mode='extended')
         for tweet in tweets:
             hashtags = [i['text'].lower() for i in tweet.__dict__['entities']['hashtags']]
             try:
@@ -72,7 +72,7 @@ def retweet_tweets_with_ticker(api, need_ticker):
     api = startAPI
     if type(need_ticker) is list:
         search_query = f"{need_ticker} -filter:retweets"
-        tweets = api.search(q=search_query, lang ="en", tweet_mode='extended')
+        tweets = api.search(q=search_query, lang="en", tweet_mode='extended')
         for tweet in tweets:
             ticker = [i['text'].lower() for i in tweet.__dict__['entities']['symbols']]
             try:
