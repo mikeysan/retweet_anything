@@ -16,7 +16,7 @@ logger = logging.getLogger()
 api = create_api()
 
 searchQuery = 'LekkiMassacre OR endpolicebrutalitynow'
-retweet_filter='-filter:retweets'
+retweet_filter = '-filter:retweets'
 
 q = searchQuery.lower() + retweet_filter
 tweetsPerQry = 100
