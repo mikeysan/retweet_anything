@@ -48,6 +48,7 @@ with open(fName, 'w') as f:
                                         max_id=str(max_id - 1),
                                         since_id=sinceId, tweet_mode='extended')
 
+
             if not new_tweets:
                 print("No more tweets found")
                 break
