@@ -1,3 +1,4 @@
+import logging
 import tweepy
 import os
 import sys
@@ -13,6 +14,7 @@ ACCESS_TOKEN = os.getenv('ATOKEN')
 ACCESS_TOKEN_SECRET = os.getenv('ATOKEN_SECRET')
 
 logger = logging.getLogger()
+
 
 def create_api():
     consumer_key = CONSUMER_KEY
