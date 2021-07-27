@@ -1,3 +1,4 @@
+from config import create_api
 import tweepy
 from textblob import TextBlob
 import jsonpickle
@@ -12,6 +13,7 @@ load_dotenv()
 
 logging.basicConfig(filename='analysis.log', level=logging.INFO)
 logger = logging.getLogger()
+
 
 searchQuery = 'LekkiMassacre OR endpolicebrutalitynow'
 retweet_filter = '-filter:retweets'
@@ -55,10 +57,10 @@ with open(fName, 'w') as f:
             tweetCount += len(new_tweets)
             print("Downloaded {0} tweets".format(tweetCount))
             max_id = new_tweets[-1].id
-                
+
         except tweepy.TweepError as e:
             # Just exit if any error
             print("some error : " + str(e))
             break
-                
+
 print ("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
