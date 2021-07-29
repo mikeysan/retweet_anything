@@ -1,25 +1,24 @@
 import tweepy
 import logging
 import time
-# import random
-# from dotenv import load_dotenv
-from datetime import datetime, timedelta
+# Import config script used to create twitter API.
+from config import create_api
+from dotenv import load_dotenv
 
-# load_dotenv()
+load_dotenv()
 
 # Removing logging to file option for now
 # logging.basicConfig(filename='out.log', level=logging.INFO)
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger()
 
-# Import config script used to create twitter API.
-from config import create_api
 api = create_api()
+
 
 # Like and retween mentions (of me)
 def fav_retweet(api):
     logger.info('Retrieving tweets...')
-    mentions = api.mentions_timeline(tweet_mode = 'extended')
+    mentions = api.mentions_timeline(tweet_mode='extended')
     for mention in reversed(mentions):
         if mention.in_reply_to_status_id is not None or mention.user.id == api.me().id:
             # This tweet is a reply or I'm its author so, ignore it
@@ -30,7 +29,7 @@ def fav_retweet(api):
             try:
                 mention.favorite()
                 logger.info(f"Liked tweet by {mention.user.name}")
-            except Exception as e:
+            except tweepy.TweepError:
                 logger.error("Error on fav", exc_info=True)
 
         if not mention.retweeted:
@@ -38,14 +37,15 @@ def fav_retweet(api):
             try:
                 mention.retweet()
                 logger.info(f"Retweeted tweet by {mention.user.name}")
-            except Exception as e:
+            except tweepy.TweepError:
                 logger.error("Error on fav and retweet", exc_info=True)
+
 
 # Search for specific hastags and retweet when we find them.
 def retweet_tweets_with_hashtag(api, need_hashtags):
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
-        tweets = api.search(q=search_query, lang ="en", tweet_mode='extended', encoding="utf-8")
+        tweets = api.search(q=search_query, lang="en", tweet_mode='extended', encoding="utf-8")
         for tweet in tweets:
             hashtags = [i['text'].lower() for i in tweet.__dict__['entities']['hashtags']]
             try:
@@ -55,7 +55,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                     api.retweet(tweet.id)
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(90)
-            except tweepy.TweepError as e:
+            except tweepy.TweepError:
                 logger.error("Error on retweet", exc_info=True)
     else:
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
@@ -74,7 +74,7 @@ while True:
     time.sleep(50)
 
 
-# trying to figure out a way to add a comment as I tweet; i.e. retweet with comment
+# Trying to figure out a way to add a comment as I [re]tweet; i.e. retweet with comment
 # only option I have found is to use the ful url of the original tweet
 # api.update_status("My reaction https://twitter.com/screenname/status/123456789")
 # Possible example
@@ -85,4 +85,4 @@ while True:
 # tweet.permalink - Permalink of tweet itself
 
 
-#MLH #LocalHackDay #EddieHub
+# MLH #LocalHackDay #EddieHub

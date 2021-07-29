@@ -5,3 +5,10 @@ __pycache__
 .env
 out.log
 .vscode
+.idea
+temp.txt
+scrapping.log
+geckodriver.log
+.deepsource.toml
+hashtags.py
+whatsapping

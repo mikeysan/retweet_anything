@@ -1,0 +1,66 @@
+ERROR:root:Error creating API
+Traceback (most recent call last):
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/tweepy/binder.py", line 184, in execute
+    resp = self.session.request(self.method,
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/sessions.py", line 528, in request
+    prep = self.prepare_request(req)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/sessions.py", line 456, in prepare_request
+    p.prepare(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/models.py", line 320, in prepare
+    self.prepare_auth(auth, url)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/models.py", line 551, in prepare_auth
+    r = auth(self)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests_oauthlib/oauth1_auth.py", line 108, in __call__
+    r.url, headers, _ = self.client.sign(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/__init__.py", line 351, in sign
+    ('oauth_signature', self.get_oauth_signature(request)))
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/__init__.py", line 165, in get_oauth_signature
+    uri, headers, body = self._render(request)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/__init__.py", line 247, in _render
+    headers = parameters.prepare_headers(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/utils.py", line 25, in wrapper
+    return target(params, *args, **kwargs)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/parameters.py", line 53, in prepare_headers
+    escaped_value = utils.escape(value)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/utils.py", line 49, in escape
+    raise ValueError('Only unicode objects are escapable. ' +
+ValueError: Only unicode objects are escapable. Got None of type <class 'NoneType'>.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/sspade/Documents/retweet_anything/phoducation-bot/config.py", line 29, in create_api
+    api.verify_credentials()
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/tweepy/api.py", line 672, in verify_credentials
+    return bind_api(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/tweepy/binder.py", line 253, in _call
+    return method.execute()
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/tweepy/binder.py", line 192, in execute
+    six.reraise(TweepError, TweepError('Failed to send request: %s' % e), sys.exc_info()[2])
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/tweepy/binder.py", line 184, in execute
+    resp = self.session.request(self.method,
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/sessions.py", line 528, in request
+    prep = self.prepare_request(req)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/sessions.py", line 456, in prepare_request
+    p.prepare(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/models.py", line 320, in prepare
+    self.prepare_auth(auth, url)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests/models.py", line 551, in prepare_auth
+    r = auth(self)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/requests_oauthlib/oauth1_auth.py", line 108, in __call__
+    r.url, headers, _ = self.client.sign(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/__init__.py", line 351, in sign
+    ('oauth_signature', self.get_oauth_signature(request)))
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/__init__.py", line 165, in get_oauth_signature
+    uri, headers, body = self._render(request)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/__init__.py", line 247, in _render
+    headers = parameters.prepare_headers(
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/utils.py", line 25, in wrapper
+    return target(params, *args, **kwargs)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/parameters.py", line 53, in prepare_headers
+    escaped_value = utils.escape(value)
+  File "/home/sspade/.virtualenvs/retweet_anything/lib/python3.8/site-packages/oauthlib/oauth1/rfc5849/utils.py", line 49, in escape
+    raise ValueError('Only unicode objects are escapable. ' +
+tweepy.error.TweepError: Failed to send request: Only unicode objects are escapable. Got None of type <class 'NoneType'>.
