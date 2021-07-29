@@ -5,7 +5,6 @@ import jsonpickle
 import pandas as pd
 import json
 import logging
-from config import create_api  # Import config script used to create twitter API.
 api = create_api()
 
 from dotenv import load_dotenv
