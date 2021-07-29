@@ -3,7 +3,6 @@ import tweepy
 import os
 import sys
 from secrets import *
-import logging
 
 from dotenv import load_dotenv
 load_dotenv()
