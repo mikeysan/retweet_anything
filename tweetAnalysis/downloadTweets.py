@@ -62,4 +62,4 @@ with open(fName, 'w') as f:
             break
 
 
-print ("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
+print("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
