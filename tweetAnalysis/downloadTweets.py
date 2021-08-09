@@ -5,9 +5,10 @@ import jsonpickle
 import pandas as pd
 import json
 import logging
+from dotenv import load_dotenv
+
 api = create_api()
 
-from dotenv import load_dotenv
 load_dotenv()
 
 logging.basicConfig(filename='analysis.log', level=logging.INFO)
