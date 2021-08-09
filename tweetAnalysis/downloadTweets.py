@@ -5,9 +5,10 @@ import jsonpickle
 import pandas as pd
 import json
 import logging
+from dotenv import load_dotenv
+
 api = create_api()
 
-from dotenv import load_dotenv
 load_dotenv()
 
 logging.basicConfig(filename='analysis.log', level=logging.INFO)
@@ -62,4 +63,4 @@ with open(fName, 'w') as f:
             break
 
 
-print ("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
+print("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
