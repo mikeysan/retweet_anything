@@ -42,7 +42,8 @@ with open(fName, 'w') as f:
             else:
                 if not sinceId:
                     new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
-                                            max_id=str(max_id - 1), tweet_mode='extended')
+                                            max_id=str(max_id - 1),
+                                            tweet_mode='extended')
                 else:
                     new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                             max_id=str(max_id - 1),
