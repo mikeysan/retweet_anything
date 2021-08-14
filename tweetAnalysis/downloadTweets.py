@@ -5,15 +5,15 @@ import jsonpickle
 import pandas as pd
 import json
 import logging
-
 from dotenv import load_dotenv
+
+api = create_api()
+
 load_dotenv()
 
 logging.basicConfig(filename='analysis.log', level=logging.INFO)
 logger = logging.getLogger()
 
-# Import config script used to create twitter API.
-api = create_api()
 
 searchQuery = 'LekkiMassacre OR endpolicebrutalitynow'
 retweet_filter = '-filter:retweets'
@@ -34,20 +34,19 @@ with open(fName, 'w') as f:
         try:
             if max_id <= 0:
                 if not sinceId:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry, tweet_mode='extended')
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry, tweet_mode='extended')
 
                 else:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                         since_id=sinceId, tweet_mode='extended')
             else:
                 if not sinceId:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                         max_id=str(max_id - 1), tweet_mode='extended')
                 else:
-                    new_tweets = api.search(q=q, lang ="en", count=tweetsPerQry,
+                    new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
                                         max_id=str(max_id - 1),
                                         since_id=sinceId, tweet_mode='extended')
-
             if not new_tweets:
                 print("No more tweets found")
                 break
@@ -63,4 +62,5 @@ with open(fName, 'w') as f:
             print("some error : " + str(e))
             break
 
-print ("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
+
+print("Downloaded {0} tweets, Saved to {1}".format(tweetCount, fName))
