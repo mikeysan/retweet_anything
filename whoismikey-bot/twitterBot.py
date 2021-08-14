@@ -45,7 +45,9 @@ def fav_retweet(api):
 def retweet_tweets_with_hashtag(api, need_hashtags):
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
-        tweets = api.search(q=search_query, lang="en", tweet_mode='extended', encoding="utf-8")
+        tweets = api.search(q=search_query, lang="en",
+                            tweet_mode='extended',
+                            encoding="utf-8")
         for tweet in tweets:
             hashtags = [i['text'].lower() for i in tweet.__dict__['entities']['hashtags']]
             try:

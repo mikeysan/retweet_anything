@@ -43,4 +43,9 @@ def main(keywords):
 
 
 if __name__ == "__main__":
-    main(["streetphotography", "travelphotograhy", "photographytips", "endsars", "endsarsnow"])
+    main(["streetphotography",
+          "travelphotograhy",
+          "photographytips",
+          "endsars",
+          "endsarsnow"
+          ])

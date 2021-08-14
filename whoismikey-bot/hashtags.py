@@ -22,7 +22,8 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
             try:
                 need_hashtags = [hashtag.strip('#') for hashtag in need_hashtags]
                 need_hashtags = list(need_hashtags)
-                if (set(hashtags) & set(need_hashtags)) and (tweet.user.id != api.me().id and not tweet.retweeted):
+                if (set(hashtags) & set(need_hashtags)) and \
+                        (tweet.user.id != api.me().id and not tweet.retweeted):
                     api.retweet(tweet.id)
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(15)
@@ -36,6 +37,10 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
 
 # We can test this with a number of hashtags..
 while True:
-    retweet_tweets_with_hashtag(api, ["cityjsconf", "cityjs", "github", "hacktoberfest"])
+    retweet_tweets_with_hashtag(api, ["cityjsconf",
+                                      "cityjs",
+                                      "github",
+                                      "hacktoberfest"
+                                      ])
     logger.info("Waiting...")
     time.sleep(120)
