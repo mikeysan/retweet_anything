@@ -1,9 +1,9 @@
 from config import create_api
 import tweepy
-from textblob import TextBlob
-import jsonpickle
-import pandas as pd
-import json
+# from textblob import TextBlob
+# import jsonpickle
+# import pandas as pd
+# import json
 import logging
 from dotenv import load_dotenv
 
@@ -38,15 +38,15 @@ with open(fName, 'w') as f:
 
                 else:
                     new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
-                                        since_id=sinceId, tweet_mode='extended')
+                                            since_id=sinceId, tweet_mode='extended')
             else:
                 if not sinceId:
                     new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
-                                        max_id=str(max_id - 1), tweet_mode='extended')
+                                            max_id=str(max_id - 1), tweet_mode='extended')
                 else:
                     new_tweets = api.search(q=q, lang="en", count=tweetsPerQry,
-                                        max_id=str(max_id - 1),
-                                        since_id=sinceId, tweet_mode='extended')
+                                            max_id=str(max_id - 1),
+                                            since_id=sinceId, tweet_mode='extended')
             if not new_tweets:
                 print("No more tweets found")
                 break
