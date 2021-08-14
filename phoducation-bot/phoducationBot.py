@@ -88,7 +88,7 @@ def retweet_tweets_with_ticker(api, need_ticker):
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
         return
 
-    
+
 # Testing like and retween of set user_handle.
 while True:
     fav_retweet(startAPI)
