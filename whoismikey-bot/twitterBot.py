@@ -71,7 +71,7 @@ while True:
     time.sleep(10)
     retweet_tweets_with_hashtag(api, ["eddiehub"])
     time.sleep(10)
-    retweet_tweets_with_hashtag(api, ["hacktoberfest"])
+    retweet_tweets_with_hashtag(api, ["crypto"])
     time.sleep(10)
     retweet_tweets_with_hashtag(api, ["opensource"])
     logger.info("Waiting...")
