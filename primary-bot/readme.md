@@ -1,3 +1,6 @@
+## Use GitPod
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/mikeysan/retweet_anything/tree/main/primary-bot)
+
 # Primary Bot
 
 This twitter bot is used to retweet posts about topics that I find interesting.
@@ -5,7 +8,7 @@ The retweets are based on hashtags; example, #opensource, #eddiehub
 
 It is possible to copy this folder only as it is indpendent from the others; i.e. secret details are stored within this folder
 
-# How to run
+### How to run
 
 - On Linux:
 
