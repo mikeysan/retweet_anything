@@ -45,7 +45,7 @@ def fav_retweet(api):
 def retweet_tweets_with_hashtag(api, need_hashtags):
     if type(need_hashtags) is list:
         search_query = f"{need_hashtags} -filter:retweets"
-        tweets = api.search(q=search_query, lang="en",
+        tweets = api.search_tweets(q=search_query, lang="en",
                             tweet_mode='extended',
                             encoding="utf-8")
         for tweet in tweets:
@@ -54,7 +54,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                 need_hashtags = [hashtag.strip('#') for hashtag in need_hashtags]
                 need_hashtags = list(need_hashtags)
                 if (set(hashtags) & set(need_hashtags)) and tweet.user.id != api.me().id:
-                    api.retweet(tweet.id)
+                    api.get_retweet(tweet.id)
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(90)
             except tweepy.TweepError:
