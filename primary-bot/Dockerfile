@@ -1,3 +1,5 @@
+# syntax=docker/dockerfile:1
+
 # Set base image
 FROM python:3.8
 
