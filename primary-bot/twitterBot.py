@@ -20,7 +20,7 @@ def fav_retweet(api):
     logger.info('Retrieving tweets...')
     mentions = api.mentions_timeline(tweet_mode='extended')
     for mention in reversed(mentions):
-        if mention.in_reply_to_status_id is not None or mention.user.id == api.me().id:
+        if mention.in_reply_to_status_id is not None or mention.user.id == api.verify_credentials().id:
             # This tweet is a reply or I'm its author so, ignore it
             return
 
