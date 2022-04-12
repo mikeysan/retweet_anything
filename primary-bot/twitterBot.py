@@ -29,7 +29,7 @@ def fav_retweet(api):
             try:
                 mention.favorite()
                 logger.info(f"Liked tweet by {mention.user.name}")
-            except tweepy.TweepError:
+            except tweepy.TweepyException:
                 logger.error("Error on fav", exc_info=True)
 
         if not mention.retweeted:
@@ -37,7 +37,7 @@ def fav_retweet(api):
             try:
                 mention.retweet()
                 logger.info(f"Retweeted tweet by {mention.user.name}")
-            except tweepy.TweepError:
+            except tweepy.TweepyException:
                 logger.error("Error on fav and retweet", exc_info=True)
 
 
@@ -57,7 +57,7 @@ def retweet_tweets_with_hashtag(api, need_hashtags):
                     api.get_retweet(tweet.id)
                     logger.info(f"Retweeted tweet from {tweet.user.name}")
                     time.sleep(90)
-            except tweepy.TweepError:
+            except tweepy.TweepyException:
                 logger.error("Error on retweet", exc_info=True)
     else:
         logger.error("Hashtag search terms needs to be of type list", exc_info=True)
